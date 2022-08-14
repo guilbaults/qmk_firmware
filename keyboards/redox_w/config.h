@@ -21,13 +21,13 @@
 /* USB Device descriptor parameter */
 
 #define VENDOR_ID       0x4D44 //MD
-#define PRODUCT_ID      0x5257 //RW
+#define PRODUCT_ID      0x5258 //RW
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Mattia Dal Ben
 #define PRODUCT         Redox_wireless
 
 /* key matrix size */
-#define MATRIX_ROWS 5
+#define MATRIX_ROWS 7
 #define MATRIX_COLS 14
 
 /* define if matrix has ghost */
@@ -53,3 +53,6 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+#define JOYSTICK_BUTTON_COUNT 14
+#define JOYSTICK_AXES_COUNT 0
