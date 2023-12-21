@@ -5,8 +5,8 @@
 
 #ifndef JOYSTICK_BUTTON_COUNT
 #    define JOYSTICK_BUTTON_COUNT 8
-#elif JOYSTICK_BUTTON_COUNT > 32
-#    error Joystick feature only supports up to 32 buttons
+#elif JOYSTICK_BUTTON_COUNT > 128
+#    error Joystick feature only supports up to 128 buttons
 #endif
 
 #ifndef JOYSTICK_AXES_COUNT
